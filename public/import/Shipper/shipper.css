@@ -1,0 +1,208 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+ 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
+
+.form-column {
+  margin-top: 20px;
+}
+
+.address-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input, button {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#save
+{
+  background-color: #131971;
+  width:auto;
+}
+
+button {
+  background-color: blueviolet;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.vehicle-option {
+  display: inline-block;
+  margin-right: 130px;
+  cursor: pointer;
+}
+
+.vehicle-image {
+  max-width: 100px;
+  max-height: 60px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.selected-vehicle {
+  margin-top: 10px;
+}
+
+#calculateTotalBtn, #submitBtn, #proceedToBookingBtn {
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#calculateTotalBtn:hover, #submitBtn:hover, #proceedToBookingBtn:hover {
+  background-color: #45a049;
+}
+
+#total-column {
+  margin-top: 20px;
+}
+
+#walletModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin:auto;
+  padding: 50px 50px 60px;
+  border: 1px solid #888;
+  width: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.close-btn {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#savedAddressesModal {
+  display: none;
+}
+
+/* Modal Container */
+#savedAddressesModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #777;
+}
+
+
+/* Edit and Delete Buttons */
+/* Edit and Delete Buttons */
+.saveAdd {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 10px; /* Adjust padding for size */
+  cursor: pointer;
+  border-radius: 5px; /* Adjust border-radius for rounded corners */
+  width: 150px;
+}
+
+.saveAdd:hover {
+  background-color: #0056b3;
+}
